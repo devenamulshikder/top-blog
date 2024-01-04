@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* background section */
+.big-sky-blue {
+  background: #f3f1ff;
+}
+
+/* body section start */
+
+.main-containner {
+  max-width: 900px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  border-radius: 5px;
+  height: 90vh;
+  margin-top: 30px;
+  /* body section end */
+
+  /* top player section start here */
+}
+.player-wrapper {
+  padding-top: 20px;
+  padding-left: 18px;
+  color: rgb(102, 25, 233);
+}
+.logo {
+  height: 250px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 50px;
+}
+.logo div {
+  display: flex;
+  margin-top: 5px;
+}
+p {
+  margin-top: 30px;
+  margin-left: 15px;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.img {
+  margin-top: 15px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+/* top player section end here */
+.dag {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+/* top blogs section start here */
+.top {
+  padding-top: 10px;
+  padding-left: 18px;
+  color: rgb(102, 25, 233);
+}
+.image2 {
+  margin-top: 10px;
+  margin-left: 20px;
+  height: 200px;
+  width: 160px;
+  border-radius: 30px;
+}
+.food {
+  height: 350px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+
+
+}
+.food div{
+    display: flex;
+}
+h3{
+    margin-left: 20px;
+    margin-top: 35px;
+}
+.nam{
+  color: rgb(102, 25, 233);
+}
